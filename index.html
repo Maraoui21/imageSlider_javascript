@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn-back,.btn-next{
+            position: absolute;
+            margin-top: 98px;
+            font-weight:bold;
+        }
+        .btn-back{
+            float: left;
+            margin-left: -2.5em;
+            color: white;
+            background: #464545;
+            border: none;
+            padding: 7px 25px;
+            text-transform: uppercase;
+            border-radius: 2px;
+            border: 0.1em solid #ffffff85;
+            box-shadow: 4px 4px #88888817;
+        }
+        .btn-next{
+            float: right;
+            margin-left: 47em;
+            color: white;
+            background: #464545;
+            border: none;
+            padding: 7px 25px;
+            text-transform: uppercase;
+            border-radius: 2px;
+            border: 0.1em solid #ffffff85;
+            box-shadow: 4px 4px #88888817;
+        }
+        .slider{
+            height: 219px;
+            width: 50%;
+            overflow: hidden;
+            display: block;
+            margin: auto;
+            border-bottom: 8px solid #464545;
+            border-right:8px solid #464545;
+            border-radius: 3px;
+        }
+        .slider img{ 
+            width: 100%;
+            height: 258px;
+            margin: auto;
+            border: 8px solid #464545;
+            border-radius: 3px;
+        }
+        h2{
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            letter-spacing: 0.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider"/>
+        <button class="btn-back"  onclick="BackPic()">back</button>
+        <button class="btn-next"  onclick="NextPic()">next</button> 
+    <img src="./img/a54b11d9-c044-4d3e-9b8a-921be328a335_16x9_1200x676.jpg"/>
+    <img src="./img/dubai_img_worlds_of_adventure_01_presentazione_jpg_1200_630_cover_85.jpg"/>
+    <img src="./img/images.jpg"/> 
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
